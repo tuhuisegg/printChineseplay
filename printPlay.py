@@ -58,9 +58,9 @@ def printPlay(textStr,line,background):
         print()
 
 inpt = input("写你所想：")
-lineSign = '■'
-#lineSign = "0"
+#lineSign = '■'
+lineSign = "0"
 
-backgroundSign = '○'
-#backgroundSign = "."
+#backgroundSign = '○'
+backgroundSign = "."
 printPlay(inpt,lineSign,backgroundSign)
